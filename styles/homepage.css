@@ -1,0 +1,244 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 250px;
+    overflow: auto;
+    position: relative;
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    color: black;
+    /* padding: 12px 18px; */
+    /* font-size: 18px; */
+    cursor: pointer;
+    position: relative;
+}
+
+.button i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    display: block;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: medium;
+    margin: 0px 40px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: smaller;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+    padding: 0px 5px;
+}
+
+.sales img {
+    width: 250px;
+}
+
+.sales {
+    height: 134.38px;
+    width: 250px;
+    position: relative;
+    display: inline-block;
+}
+
+#sale-image,
+#sale-description,
+#btn-next {
+    position: absolute;
+}
+
+#sale-description {
+    bottom: 0px;
+}
+
+#btn-next {
+    top: 45px;
+    right: 0px;
+    padding: 0px 0px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+}
+
+#btn-next i {
+    font-size: 20px;
+}
+
+#sale-description {
+    width: 250px;
+    background-color: white;
+    opacity: 0.8;
+    display: inline-block;
+}
+
+.categories {
+    display: flex;
+    flex: row;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.categories button {
+    width: 30px;
+    height: 30px;
+    padding: 0px 0px;
+    margin: 0px 5px;
+    outline: none;
+    border-radius: 50%;
+    border: 1px solid #BDBDBD;
+    cursor: pointer;
+    background-color: white;
+}
+
+.categories i {
+    color: #BDBDBD;
+    font-size: 20px;
+}
+
+.categories button:hover {
+    border: 1px solid black;
+    /* How to apply pseudo-class to multiple elements? */
+}
+
+.categories button:hover i {
+    /* How to apply pseudo-class to multiple elements? */
+    color: black;
+}
+
+#btn-hot:focus {
+    border: 1px solid #EF5350;
+}
+
+#btn-hot:focus i {
+    color: #EF5350;
+}
+
+#btn-books:focus {
+    border: 1px solid #29B6F6;
+}
+
+#btn-books:focus i {
+    color: #29B6F6;
+}
+
+#btn-self-care:focus {
+    border: 1px solid #7986CB;
+}
+
+#btn-self-care:focus i {
+    color: #7986CB;
+}
+
+#btn-house:focus {
+    border: 1px solid #FF7043;
+}
+
+#btn-house:focus i {
+    color: #FF7043;
+}
+
+#btn-tech:focus {
+    border: 1px solid black;
+}
+
+#btn-tech:focus i {
+    color: black;
+}
+
+#btn-sports:focus {
+    border: 1px solid #81C784;
+}
+
+#btn-sports:focus i {
+    color: #81C784;
+}
+
+.products>div {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.product-anchor {
+    display: inline-block;
+}
+
+.products {
+    width: 250px;
+    position: relative;
+}
+
+.products img {
+    width: 249px;
+}
+
+.product-description {
+    position: relative;
+    display: block;
+    border-top: 1px solid black;
+}
+
+.product-description p {
+    display: inline-block;
+}
+
+.product-cost {
+    position: absolute;
+    margin: 0px 0px;
+    right: 10px;
+    bottom: 5px;
+}
+
+.social {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social a {
+    margin: 0px 5px;
+}
+
+.social img {
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+}
+
+hr {
+    width: 150px;
+    height: 2px;
+    border: 0;
+    box-shadow: inset 0 2px 2px -2px rgba(0, 0, 0, 0.5);
+}
